@@ -1,8 +1,11 @@
-package net.lkrnac.blog.spyingonconfig;
+package net.lkrnac.blog.testing.mockbean;
 
 import static org.mockito.Mockito.reset;
 import static org.mockito.Mockito.when;
-import net.lkrnac.blog.spyingonconfig.fake.AddressDaoMock;
+import net.lkrnac.blog.testing.mockbean.AddressDao;
+import net.lkrnac.blog.testing.mockbean.AddressService;
+import net.lkrnac.blog.testing.mockbean.Application;
+import net.lkrnac.blog.testing.mockbean.fake.AddressDaoMock;
 
 import org.junit.After;
 import org.junit.Assert;

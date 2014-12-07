@@ -1,8 +1,8 @@
-package net.lkrnac.blog.spyingonconfig.fake;
+package net.lkrnac.blog.testing.mockbean.fake;
 
 import static org.mockito.Mockito.spy;
-import net.lkrnac.blog.spyingonconfig.AddressService;
-import net.lkrnac.blog.spyingonconfig.annotation.BeanMock;
+import net.lkrnac.blog.testing.mockbean.AddressService;
+import net.lkrnac.blog.testing.mockbean.annotation.BeanMock;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

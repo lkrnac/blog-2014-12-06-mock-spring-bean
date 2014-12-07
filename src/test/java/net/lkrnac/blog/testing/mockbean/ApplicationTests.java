@@ -1,4 +1,6 @@
-package net.lkrnac.blog.spyingonconfig;
+package net.lkrnac.blog.testing.mockbean;
+
+import net.lkrnac.blog.testing.mockbean.Application;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,6 +1,6 @@
-package net.lkrnac.blog.spyingonconfig;
+package net.lkrnac.blog.testing.mockbean;
 
-import net.lkrnac.blog.spyingonconfig.annotation.BeanMock;
+import net.lkrnac.blog.testing.mockbean.annotation.BeanMock;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

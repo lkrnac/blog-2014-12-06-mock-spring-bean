@@ -1,8 +1,11 @@
-package net.lkrnac.blog.spyingonconfig;
+package net.lkrnac.blog.testing.mockbean;
 
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
-import net.lkrnac.blog.spyingonconfig.fake.AddressServiceSpy;
+import net.lkrnac.blog.testing.mockbean.AddressService;
+import net.lkrnac.blog.testing.mockbean.Application;
+import net.lkrnac.blog.testing.mockbean.UserService;
+import net.lkrnac.blog.testing.mockbean.fake.AddressServiceSpy;
 
 import org.junit.Assert;
 import org.junit.Test;

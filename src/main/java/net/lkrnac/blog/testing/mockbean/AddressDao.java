@@ -1,4 +1,4 @@
-package net.lkrnac.blog.spyingonconfig;
+package net.lkrnac.blog.testing.mockbean;
 
 import org.springframework.stereotype.Repository;
 
