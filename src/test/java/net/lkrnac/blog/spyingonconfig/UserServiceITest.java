@@ -2,6 +2,7 @@ package net.lkrnac.blog.spyingonconfig;
 
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
+import net.lkrnac.blog.spyingonconfig.fake.AddressServiceSpy;
 
 import org.junit.Assert;
 import org.junit.Test;

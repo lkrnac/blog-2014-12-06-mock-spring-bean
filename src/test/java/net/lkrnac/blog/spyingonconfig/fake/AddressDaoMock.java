@@ -1,6 +1,7 @@
-package net.lkrnac.blog.spyingonconfig;
+package net.lkrnac.blog.spyingonconfig.fake;
 
-import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.mock;
+import net.lkrnac.blog.spyingonconfig.AddressDao;
 import net.lkrnac.blog.spyingonconfig.annotation.BeanMock;
 
 import org.springframework.context.annotation.Bean;
@@ -9,10 +10,10 @@ import org.springframework.context.annotation.Primary;
 
 @Configuration
 @BeanMock
-public class AddressServiceSpy {
+public class AddressDaoMock {
 	@Bean
 	@Primary
-	public AddressService registerAddressServiceSpy(AddressService addressService) {
-		return spy(addressService);
+	public AddressDao registerAddressDaoMock() {
+		return mock(AddressDao.class);
 	}
 }

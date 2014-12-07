@@ -1,7 +1,10 @@
 package net.lkrnac.blog.spyingonconfig;
 
+import static org.mockito.Mockito.reset;
 import static org.mockito.Mockito.when;
+import net.lkrnac.blog.spyingonconfig.fake.AddressDaoMock;
 
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -28,5 +31,10 @@ public class AddressServiceITest {
 
 		// THEN
 		Assert.assertEquals("5 Bright Corner", actualAddress);
+	}
+
+	@After
+	public void resetMock() {
+		reset(addressDao);
 	}
 }
