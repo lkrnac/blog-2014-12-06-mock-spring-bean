@@ -1,15 +1,14 @@
 package net.lkrnac.blog.spyingonconfig;
 
 import static org.mockito.Mockito.mock;
+import net.lkrnac.blog.spyingonconfig.annotation.BeanMock;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
-// @ConditionalOnMissingBean(value = AddressServiceSpy.class)
-@Conditional(AddressDaoMockCondition.class)
+@BeanMock
 public class AddressDaoMock {
 	@Bean
 	@Primary

@@ -19,3 +19,6 @@ hs_err_pid*
 /test-output/
 /.classpath
 /.project
+/target/
+/target/
+/target/
